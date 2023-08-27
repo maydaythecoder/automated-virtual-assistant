@@ -4,6 +4,7 @@
     position: absolute;
     font-weight: 500;
     font-size: larger;
+    color: #91afbe;
 }
 
 body ul{
@@ -22,7 +23,7 @@ body li{
 
 .nav-links{
     margin: 10px;
-    color: black;
+    color: rgb(225, 241, 255);
     text-decoration: none;
     font-weight: 400;
 }

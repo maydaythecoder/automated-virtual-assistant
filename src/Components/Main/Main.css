@@ -1,0 +1,53 @@
+.Header{
+    font-size: 100px;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 180px;
+    color: rgb(225, 241, 255);
+}
+
+.Caption{
+    position: absolute;
+    margin-left: 405px;
+    margin-top: 320px;
+    color: rgb(225, 241, 255);
+}
+
+.dash{
+    position: absolute;
+    margin-top: 320px;
+    color: #00000000;
+    font-weight: 100;
+    background-color: #e2c2e1;
+    border: solid 2px#00000000;
+    border-radius: 15%;
+}
+
+#left{
+    height: 10px;
+    margin-left: 555px;
+    margin-top: 322.5px;
+    max-width: 1px;
+}
+
+#middle{
+    height: 15px;
+    margin-left: 560px;
+    margin-top: 320px;
+    max-width: 1px;
+}
+
+#right{
+    height: 10px;
+    margin-left: 565px;
+    margin-top: 322.5px;
+    max-width: 1px;
+}
+
+.ava-small{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 320px;
+    font-weight: 500;
+    color: #91afbe;
+}
