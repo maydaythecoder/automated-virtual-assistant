@@ -1,0 +1,31 @@
+.Card{
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    background-color: rgba(149, 242, 246, 0.271);
+    color: antiquewhite;
+    margin-left: 800px;
+    margin-top: 400px;
+    border-radius: 15%;
+}
+
+#Card-Header{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 230px;
+}
+
+#Card-Footer{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 35px;
+}
+
+#Card-Button{
+    position: absolute;
+    border: 10px;
+    margin-top: 330px;
+    margin-left: 230px;
+}
