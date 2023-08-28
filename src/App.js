@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Main from './Components/Main/Main';
 import Cards from './Components/Cards/Cards';
+import TimeDate from './Components/TimeDate/TimeDate';
 
 
 /*
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <TimeDate />
       <Main />
       <Cards />
     </div>
