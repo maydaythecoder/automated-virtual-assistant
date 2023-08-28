@@ -6,9 +6,9 @@ const Main = () => {
     <div>
       <h1 className='Header'>Hello User</h1>
       <h6 className='Caption'>How can i help you</h6>
-      <p className='dash' id='left'>1</p>
-      <p className='dash' id='middle'>1</p>
-      <p className='dash' id='right'>1</p>
+      <p className='dash' id='left'>l</p>
+      <p className='dash' id='middle'>l</p>
+      <p className='dash' id='right'></p>
       <h6 className='ava-small'>AVA</h6>
     </div>
   )

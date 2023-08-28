@@ -16,32 +16,35 @@
 .dash{
     position: absolute;
     margin-top: 320px;
-    color: #00000000;
-    font-weight: 100;
+    color: #a2ff0000;
+    font-weight: 500;
     background-color: #e2c2e1;
-    border: solid 2px#00000000;
-    border-radius: 15%;
+    border: solid 2px#e2c2e1;
 }
 
 #left{
     height: 10px;
-    margin-left: 555px;
-    margin-top: 322.5px;
-    max-width: 1px;
+    margin-left: 550px;
+    margin-top: 325px;
+    max-width: .5px;
+    border-radius: 20%;
 }
 
 #middle{
-    height: 15px;
-    margin-left: 560px;
-    margin-top: 320px;
-    max-width: 1px;
+    height: 18px;
+    margin-left: 555.2px;
+    margin-top: 321.5px;
+    max-width: .5px;
+    font-size: larger;
+    border-radius: 20%;
 }
 
 #right{
     height: 10px;
-    margin-left: 565px;
-    margin-top: 322.5px;
-    max-width: 1px;
+    margin-left: 561px;
+    margin-top: 325px;
+    max-width: .5px;
+    border-radius: 20%;
 }
 
 .ava-small{
@@ -49,5 +52,5 @@
     margin-left: 575px;
     margin-top: 320px;
     font-weight: 500;
-    color: #91afbe;
+    color: #8fdaff;
 }
