@@ -1,56 +1,54 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import "./Main.css"
 
-let Name = ["User"]
-
-//split name
-//start as hidden
-//reveal one letter at a time
-
-/*
-
-//on hover use effect from parallax file
-
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-let interval = null;
-
-document.querySelector("h1").onmouseover = event => {
-  let iteration = 0;
-
-  clearInterval(interval);
-
-  interval = setInterval(() => {
-    event.target.innerText = event.target.innerText
-      .split("")
-      .map((letter, index) => {
-        if(index <  iteration ) {
-          return event.target.dataset.value[index];
-        }
-
-        return letters[Math.floor(Math.random() * 26)]
-      })
-      .join("");
-
-    if(iteration >= event.target.dataset.value.length){
-      clearInterval(interval);
-    }
-
-    iteration += 1 / 3;
-  }, 30);
-}
-
-*/
-
 const Main = () => {
+
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const [intervalId, setIntervalId] = useState(null);
+  const [text, setText] = useState('');
+  
+  const handleMouseOver = () => {
+    let iteration = 0;
+    clearInterval(intervalId);
+
+    const newIntervalId = setInterval(() => {
+      setText((prevText) =>
+        prevText
+          .split('')
+          .map((_letter, index) => {
+            if (index < iteration) {
+              return text.charAt(index);
+            }
+            return letters[Math.floor(Math.random() * 26)];
+          })
+          .join('')
+      );
+
+      if (iteration >= text.length) {
+        clearInterval(newIntervalId);
+      }
+
+      iteration += 1 / 3;
+    }, 30);
+
+    setIntervalId(newIntervalId);
+  };
+
+  useEffect(() => {
+    const initialText = 'AVA'; // Set your initial text here
+    setText(initialText);
+  }, []);
+
+  //onMouseOver={handleMouseOver}>{text}
+
   return (
     <div>
-      <h1 className='Header'>Hello {Name}</h1>
+          <h1 className='Header' >Hello User</h1>
       <h6 className='Caption'>How can i help you</h6>
-      <p className='dash' id='left'>l</p>
-      <p className='dash' id='middle'>l</p>
+      <p className='dash' id='left'></p>
+      <p className='dash' id='middle'></p>
       <p className='dash' id='right'></p>
-      <h6 className='ava-small'>AVA</h6>
+      <h6 className='ava-small'onMouseOver={handleMouseOver}>{text}</h6>
     </div>
   )
 }

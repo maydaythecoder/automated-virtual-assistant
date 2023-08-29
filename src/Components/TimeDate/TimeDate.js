@@ -26,7 +26,7 @@ const TimeDate = () => {
   const formattedDate = `${String(currentTime.getMonth() + 1).padStart(2, '0')}/${String(currentTime.getDate()).padStart(2, '0')}/${currentTime.getFullYear()}`;
 
   return (
-    <div>
+    <div className='TDC'>
       <span className='time'>
         <p>{formattedTime}</p>
       </span>

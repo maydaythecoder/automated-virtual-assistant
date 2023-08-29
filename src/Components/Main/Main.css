@@ -2,20 +2,20 @@
     font-size: 100px;
     position: absolute;
     margin-left: 390px;
-    margin-top: 180px;
+    margin-top: 80px;
     color: rgb(225, 241, 255);
 }
 
 .Caption{
     position: absolute;
     margin-left: 405px;
-    margin-top: 320px;
+    margin-top: 220px;
     color: rgb(225, 241, 255);
 }
 
 .dash{
     position: absolute;
-    margin-top: 320px;
+    margin-top: 220px;
     color: #a2ff0000;
     font-weight: 500;
     background-color: #e2c2e1;
@@ -25,7 +25,7 @@
 #left{
     height: 10px;
     margin-left: 550px;
-    margin-top: 325px;
+    margin-top: 225px;
     max-width: .5px;
     border-radius: 20%;
 }
@@ -33,7 +33,7 @@
 #middle{
     height: 18px;
     margin-left: 555.2px;
-    margin-top: 321.5px;
+    margin-top: 221.5px;
     max-width: .5px;
     font-size: larger;
     border-radius: 20%;
@@ -41,8 +41,8 @@
 
 #right{
     height: 10px;
-    margin-left: 561px;
-    margin-top: 325px;
+    margin-left: 560px;
+    margin-top: 225px;
     max-width: .5px;
     border-radius: 20%;
 }
@@ -50,7 +50,7 @@
 .ava-small{
     position: absolute;
     margin-left: 575px;
-    margin-top: 320px;
+    margin-top: 220px;
     font-weight: 500;
     color: #8fdaff;
 }

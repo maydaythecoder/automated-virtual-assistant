@@ -1,11 +1,12 @@
 .Card{
     position: absolute;
-    height: 400px;
-    width: 350px;
+    height: 350px;
+    width: 300px;
+    margin-top: 280px;
     background-color: rgba(228, 254, 255, 0);
     color: rgba(255, 255, 255, 0.614);
     margin-left: 300px;
-    margin-top: 400px;
+
     border-radius: 15%;
     border: solid 3px rgb(0, 153, 255);
 }
@@ -14,21 +15,21 @@
     font-size: 50px;
     position: absolute;
     margin-left: 30px;
-    margin-top: 230px;
+    margin-top: 200px;
 }
 
 #Card-Footer{
     font-size: 25px;
     position: absolute;
-    margin-top: 280px;
+    margin-top: 250px;
     margin-left: 35px;
 }
 
 #Card-Button{
     position: absolute;
     border: 10px;
-    margin-top: 330px;
-    margin-left: 230px;
+    margin-top: 290px;
+    margin-left: 210px;
     border-radius: 10%;
     color: aliceblue;
     background-color: rgb(0, 136, 255);
@@ -36,12 +37,14 @@
 
 .Card2{
     position: absolute;
-    height: 400px;
-    width: 350px;
+    height: 350px;
+    width: 300px;
+    margin-top: 280px;
+    margin-top: 280px;
     background-color: rgba(228, 254, 255, 0);
     color: rgba(255, 255, 255, 0.614);
     margin-left: 700px;
-    margin-top: 400px;
+
     border-radius: 15%;
     border: solid 3px rgb(0, 153, 255);
 }
@@ -50,21 +53,21 @@
     font-size: 50px;
     position: absolute;
     margin-left: 30px;
-    margin-top: 230px;
+    margin-top: 200px;
 }
 
 #Card-Footer2{
     font-size: 25px;
     position: absolute;
-    margin-top: 280px;
+    margin-top: 250px;
     margin-left: 35px;
 }
 
 #Card-Button2{
     position: absolute;
     border: 10px;
-    margin-top: 330px;
-    margin-left: 230px;
+    margin-top: 290px;
+    margin-left: 210px;
     border-radius: 10%;
     color: aliceblue;
     background-color: rgb(0, 136, 255);
@@ -73,12 +76,12 @@
 
 .Card3{
     position: absolute;
-    height: 400px;
-    width: 350px;
+    height: 350px;
+    width: 300px;
+    margin-top: 280px;
     background-color: rgba(228, 254, 255, 0);
     color: rgba(255, 255, 255, 0.614);
     margin-left: 1100px;
-    margin-top: 400px;
     border-radius: 15%;
     border: solid 3px rgb(0, 153, 255);
 }
@@ -87,21 +90,21 @@
     font-size: 50px;
     position: absolute;
     margin-left: 30px;
-    margin-top: 230px;
+    margin-top: 200px;
 }
 
 #Card-Footer3{
     font-size: 25px;
     position: absolute;
-    margin-top: 280px;
+    margin-top: 250px;
     margin-left: 35px;
 }
 
 #Card-Button3{
     position: absolute;
     border: 10px;
-    margin-top: 330px;
-    margin-left: 230px;
+    margin-top: 290px;
+    margin-left: 210px;
     border-radius: 10%;
     color: aliceblue;
     background-color: rgb(0, 136, 255);
