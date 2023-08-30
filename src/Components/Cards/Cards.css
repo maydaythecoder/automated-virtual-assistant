@@ -2,11 +2,10 @@
     position: absolute;
     height: 350px;
     width: 300px;
-    margin-top: 280px;
+    margin-top: 380px;
     background-color: rgba(228, 254, 255, 0);
     color: rgba(255, 255, 255, 0.614);
     margin-left: 300px;
-
     border-radius: 15%;
     border: solid 3px rgb(0, 153, 255);
 }
@@ -39,12 +38,10 @@
     position: absolute;
     height: 350px;
     width: 300px;
-    margin-top: 280px;
-    margin-top: 280px;
+    margin-top: 380px;
     background-color: rgba(228, 254, 255, 0);
     color: rgba(255, 255, 255, 0.614);
     margin-left: 700px;
-
     border-radius: 15%;
     border: solid 3px rgb(0, 153, 255);
 }
@@ -78,7 +75,7 @@
     position: absolute;
     height: 350px;
     width: 300px;
-    margin-top: 280px;
+    margin-top: 380px;
     background-color: rgba(228, 254, 255, 0);
     color: rgba(255, 255, 255, 0.614);
     margin-left: 1100px;

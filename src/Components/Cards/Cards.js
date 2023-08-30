@@ -1,31 +1,41 @@
-import React from 'react'
+import React, { useState, useEffect,} from 'react';
 import "./Cards.css"
+import CardData from '../Cards/Cards.json'
 
 
 /*
-TODO: Make Card Data Dynamic: Json File
-TODO: add 3 cards, 1 for calender/ 1 for socials/ 1 for News based off user preferences|
+TODO: add 3 Cards, 1 for calender/ 1 for socials/ 1 for News based off user preferences|
+get data from api
 */
-const Cards = () => {
+
+/*
+
+update style, remove absolute positioning
+
+*/
+
+
+const CardsMapping = () => {
+  const [Cards, setCards] = useState([]);
+
+  useEffect(() => {
+    setCards(CardData);
+  }, []);
+
+  
   return (
   <div>
-    <div className='Card'>
-      <h1 id='Card-Header' >Header</h1>
-        <h6 id='Card-Footer' >Footer</h6>
-      <button id='Card-Button' >Action</button>
-    </div>
-     <div className='Card2'>
-      <h1 id='Card-Header2' >Header</h1>
-        <h6 id='Card-Footer2' >Footer</h6>
-      <button id='Card-Button2' >Action</button>
-    </div>
-    <div className='Card3'>
-      <h1 id='Card-Header3' >Header</h1>
-        <h6 id='Card-Footer3' >Footer</h6>
-      <button id='Card-Button3' >Action</button>
-    </div>
+          {Cards.map((Card) => (
+        <div key={Card.id}>
+            <div className='Card' >
+                <h1 id='Card-Header'>{Card.Title}</h1>
+                <h6 id='Card-Footer'>{Card.Description}</h6>
+                <button id='Card-Button2'>{Card.Button}</button>
+            </div>
+        </div>
+              ))}
   </div>
-  )
-}
+  );
+};
 
-export default Cards
+export default CardsMapping

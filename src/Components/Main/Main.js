@@ -42,7 +42,7 @@ const Main = () => {
   //onMouseOver={handleMouseOver}>{text}
 
   return (
-    <div>
+    <div className='all'>
           <h1 className='Header' >Hello User</h1>
       <h6 className='Caption'>How can i help you</h6>
       <p className='dash' id='left'></p>
