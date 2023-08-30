@@ -26,13 +26,11 @@ const CardsMapping = () => {
   return (
   <div>
           {Cards.map((Card) => (
-        <div key={Card.id}>
-            <div className='Card' >
+            <div className='Card'key={Card.id} >
                 <h1 id='Card-Header'>{Card.Title}</h1>
                 <h6 id='Card-Footer'>{Card.Description}</h6>
-                <button id='Card-Button2'>{Card.Button}</button>
+                <button id='Card-Button'>{Card.Button}</button>
             </div>
-        </div>
               ))}
   </div>
   );
